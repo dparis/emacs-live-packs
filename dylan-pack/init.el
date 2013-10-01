@@ -15,6 +15,10 @@
 (live-add-pack-lib "scss-mode")
 (require 'scss-mode)
 
+;; Init rust-mode
+(live-add-pack-lib "rust-mode")
+(require 'rust-mode)
+
 ;;;;
 
 ;; Load bindings config
