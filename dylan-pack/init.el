@@ -19,6 +19,10 @@
 (live-add-pack-lib "rust-mode")
 (require 'rust-mode)
 
+;; Init circe
+(live-add-pack-lib "circe/lisp")
+(require 'circe)
+
 ;;;;
 
 ;; Load bindings config
