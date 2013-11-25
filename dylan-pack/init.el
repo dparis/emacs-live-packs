@@ -23,6 +23,11 @@
 (live-add-pack-lib "circe/lisp")
 (require 'circe)
 
+;; Init multi-term
+(live-add-pack-lib "multi-term")
+(require 'multi-term)
+
+
 ;;;;
 
 ;; Load bindings config
@@ -48,3 +53,6 @@
 
 ;; Set Emblem files to open in slim-mode
 (live-load-config-file "emblem-support.el")
+
+;; Configure nrepl.el mode
+(live-load-config-file "nrepl-config.el")
