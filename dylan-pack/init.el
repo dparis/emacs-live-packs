@@ -56,3 +56,6 @@
 
 ;; Configure nrepl.el mode
 (live-load-config-file "nrepl-config.el")
+
+;; Configure midje indents
+(live-load-config-file "midje-indents.el")
