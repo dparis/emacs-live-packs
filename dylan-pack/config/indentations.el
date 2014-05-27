@@ -16,4 +16,6 @@
   (with 0)
   (with-all 0)
   (around 2)
-  (tags 0))
+  (tags 0)
+  (fact-group 'defun)
+  (go-loop 'defun))
