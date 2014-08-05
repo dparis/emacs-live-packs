@@ -51,11 +51,8 @@
 ;; Set CoffeeScript files to open in coffee-mode
 (live-load-config-file "coffee-mode.el")
 
-;; Set Emblem files to open in slim-mode
-(live-load-config-file "emblem-support.el")
-
-;; Configure nrepl.el mode
-(live-load-config-file "nrepl-config.el")
-
 ;; Configure midje indents
 (live-load-config-file "midje-indents.el")
+
+;; Fix bug in loading haskell mode
+(live-load-config-file "haskell-mode-fix.el")
